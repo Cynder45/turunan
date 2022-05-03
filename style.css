@@ -1,0 +1,294 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #0B0C10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 60px;
+}
+.logo{
+    color: #66fcf1;
+    display: flex;
+    justify-content: space-between;
+    height: -20px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar_item{
+    height: 30px;
+}
+.nav_link{
+    color: rgb(91, 129, 129);
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 100%;
+}
+.nav_link:hover{
+    transition: 0,1;
+    color: rgb(47, 132, 34);
+}
+.code{
+    text-align: left;
+    justify-content: space-around;    
+    display: flex;
+    color: #66fcf1;
+}
+
+.title{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2.5em;
+    color: #45A29E;
+}
+.code1{
+    display: flex;
+    justify-content: space-around;
+    color: #66fcf1;
+}
+.homesection{
+    background-color: #1F2833;
+}
+
+.foto{
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    color: #66fcf1;
+}
+.foto img{
+        width: 50%;
+        height: 40%;
+    border-radius: 100%;
+
+}
+.angsect{
+    width: 100%;
+    height: 60px;
+}
+.bgang{
+    background-color: black;
+    padding-top: 60px;
+}
+.fredlie img{
+    width: 70%;
+}
+.foto1 {
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    color: #66fcf1;
+}
+.foto1 img{
+    width: 50%;
+    height: 40%;
+border-radius: 100%;
+}
+.teori{
+    background-color:  #0B0C10;
+}
+.pengertian {
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color: #66fcf1;
+
+}
+.pengertian h3{
+    color: #c5c6c7;
+}
+.fungsi{
+    padding-top: 40px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    color: #66fcf1;
+}
+.fungsi h3{
+    margin-right: 30px;
+    color: #c5c6c7;
+}
+
+.peraturan p1{
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 10px;
+    justify-content: space-around;
+    color: #66fcf1 ;
+    
+}
+.peraturan h3{
+    color: #c5c6c7;
+}
+.peraturan{
+    padding-top: 20px;
+    background-color:#0B0C10;
+    
+	/*jumlah column*/
+	-webkit-column-count: 3; 
+	-moz-column-count: 3; 
+	column-count : 3;
+ 
+	/*lebar column*/
+	-webkit-column-width: 100px; 
+	-moz-column-width: 100px; 
+	column-width :100px;
+ 
+	/*jarak column dengan column yang lain*/
+	-webkit-column-gap : 20px;
+	-moz-column-gap : 20px;
+	column-gap : 20px;	
+	
+	/*ketebalan garis*/
+	-webkit-column-rule-width : 1px;
+	-moz-column-rule-width : 1px;
+	column-rule-width : 1px;	
+ 
+	/*pengaturan garis dengan format nilai jenis_garis warna*/
+	-webkit-column-rule : 1px solid blue;
+	-moz-column-rule : 1px solid blue;
+	column-rule : 1px solid #112d32;
+ 
+	/*mengatur span column*/
+	-webkit-column-span :all;
+	-moz-column-span :all;
+	column-span :all;	
+}
+.contoh {
+    background-color: black;
+}
+.soal {
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 30px;
+
+    
+}
+.soal h3{
+    color: #45a29e;
+    font-size: 30px;
+}
+.soal p{
+    text-align: left;
+    display: flex;
+    color: #c5c6c7;
+}
+.soal p1 {
+    text-align: left;
+    display: table-row;
+    color: #66fcf1;
+}
+.soal p2 {
+    text-align: left;
+    display: table-column-group;
+    color: #66fcf1;
+}
+.tbelok h3 {
+    text-align: center;
+    font-size: larger;
+    font-size: 30px;
+}
+.tbelok p {
+    font-size: larger;
+}
+.tbelok p1 {
+    margin-left: 250px;
+    display:flex;
+    width: 100% ;
+    max-width: 100px;
+    max-height: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.stasio p1 {
+    margin-left: 580px;
+    display:flex;
+    width: 100% ;
+    justify-content: space-around;
+    max-width: 100px;
+    flex-wrap: wrap;
+    
+}
+.tbelok p1:hover{
+    transition:  (0,1);
+    color: rgb(187, 93, 16);
+}
+.stasio {
+    padding-top: 40px;
+}
+.stasio p{
+    font-size: larger;
+}
+.stasio p1:hover{
+    transition:  (0,1);
+    color: rgb(187, 93, 16);
+}
+.soal p1:hover{
+    transition:  (0,1);
+    color: rgb(187, 93, 16);
+}
+.peraturan p1:hover{
+    transition:  (0,1);
+    color: rgb(187, 93, 16);
+}
+.kesimpulan{
+    padding-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.kesimpulan h3{
+    color: #c5c6c7;
+    font-size: 30px;
+}
+.kesimpulan img{
+    padding-top: 20px;
+    width: 50%;
+}
+.kesimpulan img:hover{
+    transition: ease (0,1);
+}
+.kesimpulan img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.kesimpulan img:hover  {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.akhir{
+    background-color: #060606;
+}
+.thanks{
+    padding-top: 40px;
+    color: white;
+      font-size: 55px;
+      padding: 15px;
+      font-family: sans-serif;
+      justify-content: center;
+      text-align: center;
+  }
