@@ -1,6 +1,6 @@
 alert('Selamat Datang :D');
 var typed = new Typed(".autotyped", {
-    strings: [ "Terima Kasih", "Terima Gaji", "Gak Ada yang mau nanya ?", "Yakin?", "Oke deh"],
+    strings: [ "Terima Kasih", "Gak Ada yang mau nanya ?"],
     typeSpeed: 100,
     backSpeed: 150,
     loop: true,
